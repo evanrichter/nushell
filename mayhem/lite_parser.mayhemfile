@@ -1,0 +1,7 @@
+project: nushell
+target: lite-parser
+
+cmds:
+  - cmd: /lite_parser
+  - cmd: /lite_parser_no_inst @@
+    libfuzzer: false

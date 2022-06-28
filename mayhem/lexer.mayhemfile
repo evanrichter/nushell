@@ -1,0 +1,7 @@
+project: nushell
+target: lexer
+
+cmds:
+  - cmd: /lexer
+  - cmd: /lexer_no_inst @@
+    libfuzzer: false
